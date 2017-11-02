@@ -1,0 +1,4 @@
+#!/usr/local/bin/expect
+spawn "./copy_parcel.sh"
+expect {vagrant@10.211.55.100's password:} {send "vagrant\r"}
+interact
